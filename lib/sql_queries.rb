@@ -1,4 +1,4 @@
-binding.pry
+require 'pry'
 
 def selects_all_female_bears_return_name_and_age
   binding.pry
