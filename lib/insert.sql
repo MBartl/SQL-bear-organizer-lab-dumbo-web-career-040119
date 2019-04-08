@@ -1,3 +1,5 @@
+require_relative 'create.sql'
+
 INSERT INTO bears (name, age, gender, color, temperament)
 VALUES (Mr. Chocolate, 14, male, brown, angry);
 
