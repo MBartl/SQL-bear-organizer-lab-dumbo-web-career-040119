@@ -30,6 +30,5 @@ def counts_number_of_bears_with_goofy_temperaments
 end
 
 def selects_bear_that_killed_Tim
-  "UPDATE bears SET alive = 0 WHERE alive = "0",
-  SELECT * FROM bears WHERE temperament = 'aggressive';"
+  "SELECT * FROM bears WHERE temperament = 'aggressive';"
 end
