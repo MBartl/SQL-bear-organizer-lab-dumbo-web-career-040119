@@ -1,7 +1,6 @@
 require 'pry'
 
 def selects_all_female_bears_return_name_and_age
-  binding.pry
   "SELECT name, age FROM bears WHERE gender = 'F';"
 end
 
