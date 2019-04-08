@@ -2,7 +2,7 @@ require 'pry'
 
 def selects_all_female_bears_return_name_and_age
   binding.pry
-  SELECT F FROM bears.gender
+  SELECT F FROM bears.gender;
   
 end
 
